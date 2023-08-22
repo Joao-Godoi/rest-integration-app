@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Formulario de Inscricao</string>
+    <string name="title">Formulario de Inscricao</string>
+    <string name="currrent_weight" />
+    <string name="name" />
+    <string name="height" />
+    <string name="goal_weight" />
+    <string name="phone" />
+    <string name="address" />
+    <string name="conditions" />
+</resources>
