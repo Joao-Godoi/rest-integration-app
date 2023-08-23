@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             val email = binding.email.text.toString()
             val phone = binding.phone.unMasked
             val street = binding.street.text.toString()
+            val number = binding.number.text.toString()
             val neighborhood = binding.neighborhood.text.toString()
             val city = binding.city.text.toString()
             val state = binding.state.text.toString()
@@ -51,6 +52,7 @@ class MainActivity : AppCompatActivity() {
                 !email.contains("@") -> showSnackBar("Email inválido!")
                 phone.isEmpty() || phone.length < 11 -> showSnackBar("Telefone inválido!")
                 street.isEmpty() -> showSnackBar("Preencha sua rua!")
+                number.isEmpty() -> showSnackBar("Preencha seu numero!")
                 neighborhood.isEmpty() -> showSnackBar("Preencha seu bairro!")
                 city.isEmpty() -> showSnackBar("Preencha sua cidade!")
                 state.isEmpty() -> showSnackBar("Preencha seu estado!")
